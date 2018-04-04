@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "node ./pug-rule-insert.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
@@ -21,7 +22,10 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "apply-loader": "^2.0.0",
     "core-js": "^2.4.1",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
